@@ -3,7 +3,7 @@
 ===========================*/
 body:before {
 	margin: 1em;
-	background-image: url(/blue-marble.jpg);
+	background-image: url(/fondo-panal.png);
   }
   
   @media (min-width: 980px) {
@@ -127,13 +127,16 @@ body:before {
   .fixed{
 	background-color: #c9c9c9;
   }
-  
+
+
+
+  /*cambios aca de banner*/
   .photo{
 	width: 100%;
 	height: 100px;
 	position: relative;
-	background: url('https://cdn.euroinnova.edu.es/img/subidasEditor/photographs-256888_960_720-1612920773.webp') center;
-	background-size: cover;
+	background-image: url(img/banner-minimalista.jpg); /*banner top menu*/
+	background-size:cover;
 	overflow: hidden;
   }
   
@@ -622,9 +625,14 @@ body:before {
   }
   /*	Layout
   =======================*/
+
+
+
+
+    /*Cambios aca de fondo =*/
   body {
 	background: rgb(238, 238, 238);
-	background-image: url(/marble-pink.jpg);
+	background-image: url(img/background-minimalista.jpg);
 	overflow-X: hidden;
 	font-size: 13px;
 	font-family: 'Metrophobic', sans-serif;

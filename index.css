@@ -3,8 +3,8 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: #f8f6f0;
-  /* background-image: url(/blue-marble.jpg); */
+  background-color: #dbc6ab;
+/*background-image: url(img/.jpg); */
   font-family: 'Raleway', sans-serif;
    
 }
@@ -171,7 +171,7 @@ label{
   position: relative;
   z-index: 1;
 }
-
+/*bannercito en diagonal entre la img y el texto*/
 .content:before{
   content: '';
   width: 50%;
@@ -179,10 +179,10 @@ label{
   position: absolute;
   top: -48px;
   left: 0;
-  background-color: #FEFFFF;
+  background-color: #e5d8c8;
   transform: skewY(5.5deg);/*8*/
 }
-
+/*bannercito en diagonal entre la img y el texto*/
 .content:after{
   content: '';
   width: 50%;
@@ -190,7 +190,7 @@ label{
   position: absolute;
   top: -48px;
   right: 0;
-  background-color: #FEFFFF;
+  background-color: #e5d8c8;
   transform: skewY(-5.5deg);/*8*/
 }
 

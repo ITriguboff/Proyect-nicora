@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="carrousel.css">
+	<link rel="stylesheet" href="Trabajos2.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed" rel="stylesheet">
     <script src="carrousel.js"></script>
     <title>NICORA-Productos-Agua</title>
@@ -407,42 +408,39 @@
 	  
 
 
-	  <!-- Modal Forms -->
-<section>
-	<!-- --> <button onclick="document.getElementById('id02').style='close'" style="width:auto;">Contactame</button>
-	<div class="main">
-		<div class="btns">
-		</div>
-	  </div>
-	  <div id="id02" class="modal">
-	  
-		<form class="modal-content animate" >
-		  <div class="imgcontainer">
-			<span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-		  </div>
-		  <div class="container2">
-					
-			<h2 class="titulo-modal">Escriba su consulta</h2>
-			<label for="uname"><b>Escriba su mensaje</b></label>
-			<textarea class="comentarios" id="comentarios" cols="80" rows="5" maxlength="500"></textarea>
-			<button type="submit">Enviar</button> 
-			<button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancelar</button>
-		  </div>
-		  <div class="container" >
-			<!-- <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button> -->
-	  
-	 
-	  
-		  </div>
-	  
-		</form>
-	  
-	  </div>
-</section>
+
 
 	  
 			
- 
+  <!-- Modal Forms -->
+  <div class="footer" id="contacto">
+	<h4 data-ix="slowfade-scroll-bigs">Contacto</h4>
+	<div class="container">
+	<form action="enviar.php" method="post">
+	  <ul class="flex-outer">
+		<li>
+		  <label for="nombre">Nombre</label>
+		  <input type="text" name="nombre" placeholder="Ingresa Nombre" class="rect" required>
+		</li>
+		<li>
+		  <label for="correo">Correo</label>
+		  <input type="email" name="correo" placeholder="Ingresa Correo" class="rect" required>
+		</li>
+		<li>
+		  <label for="fono">Teléfono</label>
+		  <input type="text" name="telefono" placeholder="Ingresa Teléfono" class="rect" required>
+		</li>
+		<li>
+		  <label for="mensaje">Mensaje</label>
+		  <textarea rows="6" name="mensaje" class="rect" required></textarea>
+		</li>
+		<li class="center">
+		  <button type="submit">Enviar</button>
+		</li>
+	  </ul>
+	</form>
+  </div>
+
 
 
 

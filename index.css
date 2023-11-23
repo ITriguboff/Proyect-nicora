@@ -349,9 +349,10 @@ ul li p{ /* texto de carrousel eventos */
 
 /*Portafolio*/
 .portafolio{
-  width: 90%;
+  width: 100%;
   max-width: 1400px;
-  margin: 0 auto;
+  margin-left: 300px;
+  margin-right: 300px;
   margin-top: -35px;
   margin-bottom: 40px;
 }
@@ -427,8 +428,8 @@ ul li p{ /* texto de carrousel eventos */
   transform: rotate(-5deg) scale(1.15);
 }
 
-/*FOOTER*/
-.footer{
+/*Contacto*/
+.Contacto{
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -436,15 +437,15 @@ ul li p{ /* texto de carrousel eventos */
   width: 100%;
 }
 
-.footer h4{
+.Contacto h4{
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 1.2px;
-  margin: 30px;
+  margin: center;
   color: #354757;
 }
 
-.footer h4:after{
+.Contacto h4:after{
   content: '';
   display: block; 
   width: 25%;
@@ -651,4 +652,66 @@ input{
   75%{left: -300%; opacity: .6;}
   95%{left: -400%; opacity: .6;}
   100%{left: -400%; opacity: 1;}
+}
+
+
+
+
+
+
+.footer-section {
+background: #151414;
+position: initial;
+}
+.footer-cta {
+border-bottom: 1px solid #373636;
+}
+.single-cta  {
+color: #ff5e14;
+font-size: 30px;
+margin-top: 8px;
+margin-bottom: 8px;
+inline-size:auto;
+}
+.cta-text {
+padding-left: 15px;
+display:inline-block;
+}
+.cta-text h4 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 2px;
+}
+.cta-text span {
+color: #757575;
+font-size: 15px;
+}
+.footer-content {
+position: relative;
+z-index: 2;
+}
+
+.copyright-area{
+background: #202020;
+padding: 25px 0;
+}
+.copyright-text p {
+margin: 0;
+font-size: 14px;
+color: #878787;
+}
+.copyright-text p a{
+color: #ff5e14;
+}
+.footer-menu li {
+display: inline-block;
+margin-left: 20px;
+}
+.footer-menu li:hover a{
+color: #ff5e14;
+}
+.footer-menu li a {
+font-size: 14px;
+color: #878787;
 }
